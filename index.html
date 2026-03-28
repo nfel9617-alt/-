@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بكالوريا تجريبية - فيزياء - منصة نوفل</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f1f5f9;
+            --paper-color: #ffffff;
+            --text-color: #0f172a;
+            --accent-color: #1d4ed8; /* أزرق داكن رسمي */
+            --border-color: #94a3b8;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .exam-paper {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 50px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-top: 15px solid var(--accent-color);
+        }
+
+        /* ترويسة البكالوريا الرسمية */
+        .header {
+            text-align: center;
+            border-bottom: 3px double var(--text-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 { font-size: 1.6em; margin: 0 0 10px 0; font-weight: 900; }
+        .header h2 { font-size: 1.3em; margin: 5px 0; font-weight: 700; color: #334155; }
+        .header .details {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .exercise-title {
+            font-size: 1.3em;
+            font-weight: 900;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #f8fafc;
+            padding: 8px 15px;
+            border-right: 4px solid var(--accent-color);
+        }
+
+        .points { font-weight: bold; }
+
+        p { margin: 10px 0; font-size: 1.1em; text-align: justify; }
+        
+        ol { padding-right: 25px; font-size: 1.1em; }
+        li { margin-bottom: 12px; }
+
+        /* تنسيق المعادلات الرياضية والفيزيائية */
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.15em;
+            font-style: italic;
+            font-weight: bold;
+            display: inline-block;
+            direction: ltr;
+        }
+
+        /* تنسيق الكسور */
+        .frac {
+            display: inline-flex;
+            flex-direction: column;
+            vertical-align: middle;
+            text-align: center;
+            margin: 0 0.2em;
+            font-size: 0.9em;
+        }
+        .frac .num {
+            border-bottom: 1px solid var(--text-color);
+            padding: 0 0.2em;
+        }
+        .frac .den {
+            padding: 0 0.2em;
+        }
+
+        /* تنسيق النصيحة الختامية */
+        .advice-box {
+            margin-top: 50px;
+            background-color: #eff6ff;
+            border: 2px dashed var(--accent-color);
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .advice-box h3 { color: var(--accent-color); margin-top: 0; font-size: 1.4em;}
+        .advice-box p { font-size: 1.2em; font-weight: bold; color: #1e3a8a; margin: 0; text-align: center;}
+    </style>
+</head>
+<body>
+
+    <div class="exam-paper">
+        <div class="header">
+            <h1>الجمهورية الجزائرية الديمقراطية الشعبية</h1>
+            <h2>وزارة التربية الوطنية - منصة نوفل التعليمية</h2>
+            <h2>امتحان بكالوريا تجريبي في التعليم الثانوي</h2>
+            <div class="details">
+                <span>الشعب: علوم تجريبية، رياضيات، تقني رياضي</span>
+                <span>المدة: ساعتان ونصف</span>
+            </div>
+            <div style="margin-top: 10px; font-weight: bold; font-size: 1.2em;">اختبار في مادة: العلوم الفيزيائية (الظواهر الكهربائية)</div>
+        </div>
+
+        <div class="exercise-title">
+            <span>التمرين الأول:</span>
+            <span class="points">(06 نقاط)</span>
+        </div>
+        <p>لغرض تحديد مميزات ثنائي القطب <span class="math">RC</span>، ننجز التركيب التجريبي الذي يضم على التسلسل: مولداً للتوتر ثابتاً قوته المحركة الكهربائية <span class="math">E</span>، ناقلاً أومياً مقاومته <span class="math">R</span>، مكثفة فارغة سعتها <span class="math">C</span>، وقاطعة <span class="math">K</span>.</p>
+        <p>عند اللحظة <span class="math">t = 0</span>، نغلق القاطعة <span class="math">K</span>.</p>
+        <ol>
+            <li>ارسم المخطط الكهربائي للدارة، ومثّل عليه بأسهم جهة التيار الكهربائي <span class="math">i</span>، والتوترين <span class="math">u<sub>C</sub></span> و <span class="math">u<sub>R</sub></span>.</li>
+            <li>بتطبيق قانون جمع التوترات، أسّس المعادلة التفاضلية التي يحققها التوتر الكهربائي بين طرفي المكثفة <span class="math">u<sub>C</sub>(t)</span>.</li>
+            <li>تقبل هذه المعادلة التفاضلية حلاً من الشكل: <span class="math">u<sub>C</sub>(t) = A(1 - e<sup>-&alpha;t</sup>)</span>. بالاعتماد على المعادلة التفاضلية والشروط الابتدائية، أوجد عبارة كل من الثابتين <span class="math">A</span> و <span class="math">&alpha;</span> بدلالة مميزات الدارة.</li>
+            <li>يُعطى ثابت الزمن للدارة بالعلاقة <span class="math">&tau; = R.C</span>. بيّن باستعمال التحليل البعدي أن للثابت <span class="math">&tau;</span> بُعداً زمنياً.</li>
+            <li>أكتب عبارة شدة التيار الأعظمية <span class="math">I<sub>0</sub></span> المار في الدارة لحظة غلق القاطعة، ثم استنتج عبارة <span class="math">i(t)</span>.</li>
+        </ol>
+
+        <div class="exercise-title">
+            <span>التمرين الثاني:</span>
+            <span class="points">(07 نقاط)</span>
+        </div>
+        <p>بعد شحن المكثفة السابقة كلياً، نفتح القاطعة ونربطها بناقل أومي مقاومته <span class="math">R'</span> (عملية التفريغ) ونعتبر مبدأً جديداً للأزمنة <span class="math">t = 0</span>.</p>
+        <ol>
+            <li>أوجد المعادلة التفاضلية التي تحققها شحنة المكثفة <span class="math">q(t)</span> خلال عملية التفريغ.</li>
+            <li>حل المعادلة التفاضلية السابقة يعطى بالعبارة: <span class="math">q(t) = q<sub>0</sub>.e<sup>-t/&tau;'</sup></span> حيث <span class="math">&tau;' = R'.C</span>. استنتج عبارة التوتر <span class="math">u<sub>C</sub>(t)</span>.</li>
+            <li>قمنا برسم البيان المطابق للدالة <span class="math">ln(u<sub>C</sub>) = f(t)</span>، فتحصلنا على خط مستقيم لا يمر بالمبدأ، معادلته الرياضية من الشكل: <span class="math">ln(u<sub>C</sub>) = a.t + b</span>، حيث ميله <span class="math">a = -50 s<sup>-1</sup></span> ونقطة تقاطعه مع محور التراتيب <span class="math">b = 1.6</span>.
+                <ol style="list-style-type: lower-alpha; margin-top: 10px;">
+                    <li>أوجد العبارة النظرية للدالة <span class="math">ln(u<sub>C</sub>) = f(t)</span> بالاعتماد على جواب السؤال (2).</li>
+                    <li>بالمطابقة بين العبارة البيانية والعبارة النظرية، استنتج قيمة كل من: القوة المحركة الكهربائية <span class="math">E</span> (بالفولت)، وثابت الزمن <span class="math">&tau;'</span> (بالثانية).</li>
+                    <li>إذا علمت أن <span class="math">C = 20 &mu;F</span>، احسب قيمة المقاومة <span class="math">R'</span>.</li>
+                </ol>
+            </li>
+        </ol>
+
+        <div class="exercise-title">
+            <span>التمرين الثالث:</span>
+            <span class="points">(07 نقاط)</span>
+        </div>
+        <p>يهدف هذا التمرين إلى دراسة الطاقة المخزنة واستغلال المنحنى المشتق. نعود إلى دارة الشحن (التمرين الأول).</p>
+        <ol>
+            <li>أكتب عبارة الطاقة الكهربائية المخزنة في المكثفة <span class="math">E<sub>C</sub>(t)</span> بدلالة <span class="math">C</span>، <span class="math">E</span>، <span class="math">t</span>، و <span class="math">&tau;</span>.</li>
+            <li>استنتج عبارة الطاقة الأعظمية <span class="math">E<sub>C(max)</sub></span> الممكن تخزينها في المكثفة.</li>
+            <li><strong>تبيان علاقة:</strong> أثبت أن اللحظة الزمنية <span class="math">t<sub>1/2</sub></span> التي تبلغ فيها الطاقة المخزنة نصف قيمتها الأعظمية تُعطى بالعلاقة:
+                <div style="text-align: center; margin: 15px 0;">
+                    <span class="math">t<sub>1/2</sub> = &tau; . ln</span>
+                    <span class="math frac" style="font-size: 1.2em;">
+                        <span class="num">&radic;2</span>
+                        <span class="den">&radic;2 - 1</span>
+                    </span>
+                </div>
+            </li>
+            <li><strong>طريقة المنحنى المشتق:</strong> انطلاقاً من المعادلة التفاضلية للشحن، بيّن أنه يمكن كتابة العلاقة التالية:
+                <div style="text-align: center; margin: 15px 0;">
+                    <span class="math frac">
+                        <span class="num">du<sub>C</sub></span>
+                        <span class="den">dt</span>
+                    </span>
+                    <span class="math"> = -</span>
+                    <span class="math frac">
+                        <span class="num">1</span>
+                        <span class="den">&tau;</span>
+                    </span>
+                    <span class="math">. u<sub>C</sub> + </span>
+                    <span class="math frac">
+                        <span class="num">E</span>
+                        <span class="den">&tau;</span>
+                    </span>
+                </div>
+            </li>
+            <li>رسمنا البيان 
+                <span class="math frac"><span class="num">du<sub>C</sub></span><span class="den">dt</span></span>
+                <span class="math"> = f(u<sub>C</sub>)</span> فتحصلنا على خط مستقيم. ماذا يمثل ميل هذا المستقيم فيزيائياً؟ وماذا تمثل نقطة تقاطعه مع محور الفواصل؟
+            </li>
+        </ol>
+
+        <div class="advice-box">
+            <h3>💡 همسة من منصة نوفل 💡</h3>
+            <p>اكتب بمنهجية، نظّم إجابتك، لا تتسرع، واقرأ السياق جيداً.</p>
+            <p style="font-size: 0.9em; margin-top: 10px; color: #64748b;">(الفيزياء ليست مجرد قوانين تُحفظ، بل ظواهر تُفهم)</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
